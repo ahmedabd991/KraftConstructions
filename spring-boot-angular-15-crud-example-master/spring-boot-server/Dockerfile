@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # copy jar file
-COPY ../spring-boot-server/target/spring-boot-server.jar /app/spring-boot-server.jar
+COPY target/my-spring-boot-app.jar /app/my-spring-boot-app.jar
 
 # expose port
 EXPOSE 8081
