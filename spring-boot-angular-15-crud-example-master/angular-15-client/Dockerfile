@@ -7,6 +7,7 @@ WORKDIR /app
 # copy project files and install dependencies
 COPY . /app
 RUN npm install
+RUN npm i -g @angular/cli
 
 # expose port
 EXPOSE 4200
