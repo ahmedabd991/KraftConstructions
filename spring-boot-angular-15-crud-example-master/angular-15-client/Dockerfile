@@ -9,8 +9,9 @@ COPY . /app
 RUN npm install
 RUN npm i -g @angular/cli
 
+
 # expose port
 EXPOSE 4200
 
 # start the app
-CMD ["npm", "start"]
+CMD ["ng ", "serve", "--host", "0.0.0.0"]
