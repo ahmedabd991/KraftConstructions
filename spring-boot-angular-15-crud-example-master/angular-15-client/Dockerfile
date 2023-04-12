@@ -14,4 +14,4 @@ RUN npm i -g @angular/cli
 EXPOSE 4200
 
 # start the app
-CMD ["ng ", "serve", "--host", "0.0.0.0"]
+CMD ["npm", "start"]
