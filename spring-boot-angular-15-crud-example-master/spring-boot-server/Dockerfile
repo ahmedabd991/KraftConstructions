@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # copy jar file
-COPY spring-boot-jpa-h2-0.0.1-SNAPSHOT.jar /app/spring-boot-jpa-h2-0.0.1-SNAPSHOT.jar
+COPY target/spring-boot-jpa-h2-0.0.1-SNAPSHOT.jar /app/spring-boot-jpa-h2-0.0.1-SNAPSHOT.jar
 
 # expose port
 EXPOSE 8081
